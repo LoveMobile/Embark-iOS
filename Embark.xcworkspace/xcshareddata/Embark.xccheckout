@@ -1,0 +1,41 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
+<plist version="1.0">
+<dict>
+	<key>IDESourceControlProjectFavoriteDictionaryKey</key>
+	<false/>
+	<key>IDESourceControlProjectIdentifier</key>
+	<string>6B67E825-F0C2-4FF3-903D-872DA9FF2BED</string>
+	<key>IDESourceControlProjectName</key>
+	<string>Embark</string>
+	<key>IDESourceControlProjectOriginsDictionary</key>
+	<dict>
+		<key>4FBB3B92AC4F1FDA6E1F4A0A995A2FCFE458E161</key>
+		<string>https://bitbucket.org/wenembark/ios-client.git</string>
+	</dict>
+	<key>IDESourceControlProjectPath</key>
+	<string>Embark.xcworkspace</string>
+	<key>IDESourceControlProjectRelativeInstallPathDictionary</key>
+	<dict>
+		<key>4FBB3B92AC4F1FDA6E1F4A0A995A2FCFE458E161</key>
+		<string>..</string>
+	</dict>
+	<key>IDESourceControlProjectURL</key>
+	<string>https://bitbucket.org/wenembark/ios-client.git</string>
+	<key>IDESourceControlProjectVersion</key>
+	<integer>111</integer>
+	<key>IDESourceControlProjectWCCIdentifier</key>
+	<string>4FBB3B92AC4F1FDA6E1F4A0A995A2FCFE458E161</string>
+	<key>IDESourceControlProjectWCConfigurations</key>
+	<array>
+		<dict>
+			<key>IDESourceControlRepositoryExtensionIdentifierKey</key>
+			<string>public.vcs.git</string>
+			<key>IDESourceControlWCCIdentifierKey</key>
+			<string>4FBB3B92AC4F1FDA6E1F4A0A995A2FCFE458E161</string>
+			<key>IDESourceControlWCCName</key>
+			<string>Embark</string>
+		</dict>
+	</array>
+</dict>
+</plist>

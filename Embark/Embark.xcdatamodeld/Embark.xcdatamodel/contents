@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="UTF-8" standalone="yes"?>
+<model userDefinedModelVersionIdentifier="" type="com.apple.IDECoreDataModeler.DataModel" documentVersion="1.0" lastSavedToolsVersion="7701" systemVersion="14D136" minimumToolsVersion="Automatic" macOSVersion="Automatic" iOSVersion="Automatic">
+    <entity name="EmbarkUser" representedClassName="EmbarkUser" syncable="YES">
+        <attribute name="nickname" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="updatedAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="userID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="messages" optional="YES" toMany="YES" deletionRule="Nullify" destinationEntity="Message" inverseName="embarkUser" inverseEntity="Message" syncable="YES"/>
+    </entity>
+    <entity name="Message" representedClassName="Message" syncable="YES">
+        <attribute name="content" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="createdAt" optional="YES" attributeType="Date" syncable="YES"/>
+        <attribute name="fromUserID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="isRead" optional="YES" attributeType="Boolean" syncable="YES"/>
+        <attribute name="messageID" optional="YES" attributeType="String" syncable="YES"/>
+        <attribute name="toUserID" optional="YES" attributeType="String" syncable="YES"/>
+        <relationship name="embarkUser" optional="YES" maxCount="1" deletionRule="Nullify" destinationEntity="EmbarkUser" inverseName="messages" inverseEntity="EmbarkUser" syncable="YES"/>
+    </entity>
+    <fetchRequest name="FetchEmbarkUserByUserID" entity="EmbarkUser" predicateString="userID MATCHES $userID"/>
+    <fetchRequest name="FetchMessageByMessageID" entity="Message" predicateString="messageID MATCHES $messageID"/>
+    <elements>
+        <element name="Message" positionX="-63" positionY="-18" width="128" height="150"/>
+        <element name="EmbarkUser" positionX="-63" positionY="27" width="128" height="105"/>
+    </elements>
+</model>
